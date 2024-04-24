@@ -1,0 +1,302 @@
+*{padding: 0;margin: 0;box-sizing: border-box; font-family: Helvetica;}
+
+/*Cabeçalho*/
+header{
+    background-color: rgb(183, 161, 235);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 10px solid rgb(146, 202, 217);
+}
+
+/*Grid de produtos*/
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+    
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;/*Afastar a imagem do conteúdo*/
+    background-position: center;
+    background-size: cover;/*Mostra o max possi da img na área que temos*/
+}
+
+#img-1{
+    background-image: url('../img/pok1.png');
+}
+#img-2{
+    background-image: url('../img/pok2.png');
+}
+#img-3{
+    background-image: url('../img/pok3.png');
+}
+#img-4{
+    background-image: url('../img/pok4.png');
+}
+#img-5{
+    background-image: url('../img/pok5.png');
+}
+#img-6{
+    background-image: url('../img/pok6.png');
+}
+
+#img-7{
+    background-image: url('../img/pok7.png');
+}
+
+#img-8{
+    background-image: url('../img/pok8.png');
+}
+
+#img-9{
+    background-image: url('../img/pok9.png');
+}
+
+#img-10{
+    background-image: url('../img/pok10.png');
+}
+
+#img-11{
+    background-image: url('../img/pok11.png');
+}
+
+#img-12{
+    background-image: url('../img/pok12.png');
+}
+
+#img-13{
+    background-image: url('../img/pok13.png');
+}
+
+#img-14{
+    background-image: url('../img/pok14.png');
+}
+
+#img-15{
+    background-image: url('../img/pok15.png');
+}
+
+#img-16{
+    background-image: url('../img/pok16.png');
+}
+
+#img-17{
+    background-image: url('../img/pok17.png');
+}
+
+#img-18{
+    background-image: url('../img/pok18.png');
+}
+
+#img-19{
+    background-image: url('../img/pok19.png');
+}
+
+#img-20{
+    background-image: url('../img/pok20.png');
+}
+
+#img-21{
+    background-image: url('../img/pok21.png');
+}
+
+#img-22{
+    background-image: url('../img/pok22.png');
+}
+
+#img-23{
+    background-image: url('../img/pok23.png');
+}
+
+#img-24{
+    background-image: url('../img/pok24.png');
+}
+
+#img-25{
+    background-image: url('../img/pok25.png');
+}
+
+#img-26{
+    background-image: url('../img/pok26.png');
+}
+
+#img-27{
+    background-image: url('../img/pok27.png');
+}
+
+#img-28{
+    background-image: url('../img/pok28.png');
+}
+
+#img-29{
+    background-image: url('../img/pok29.png');
+}
+
+#img-30{
+    background-image: url('../img/pok30.png');
+}
+
+
+
+h3{
+    margin-bottom: 10px;
+    color: rgb(29, 34, 34);
+    border-bottom: 5px solid rgb(146, 202, 217);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.n {
+    opacity: 0.5;
+  }
+
+.normal {
+    border: 2px solid rgb(183, 183, 183);
+    background-color:rgb(183, 183, 183);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.agua {
+    color: #fff;
+    border: 2px solid rgb(42, 113, 244);
+    background-color:rgb(42, 113, 244);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.eletrico {
+    border: 2px solid yellow;
+    background-color:yellow;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.fogo {
+    color: #fff;
+    border: 2px solid red;
+    background-color:red;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.psiquico {
+    color: #fff;
+    border: 2px solid rgb(230, 103, 145);
+    background-color:rgb(230, 103, 145);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.sombra {
+    color: #fff;
+    border: 2px solid rgb(25, 4, 31);
+    background-color:rgb(25, 4, 31);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.planta {
+    border: 2px solid greenyellow;
+    background-color:greenyellow;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.gelo {
+    border: 2px solid rgb(81, 183, 247);
+    background-color:rgb(81, 183, 247);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.fada {
+    border: 2px solid pink;
+    background-color:pink;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.terra {
+    border: 2px solid rgb(197, 197, 22);
+    background-color:rgb(197, 197, 22);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.voador {
+    border: 2px solid rgb(81, 183, 247);
+    background-color: rgb(183, 183, 183);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.ferro {
+    border: 2px solid rgb(182, 216, 213);
+    background-color: rgb(182, 216, 213);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.lutador {
+    color: #fff; 
+    border: 2px solid rgb(223, 135, 5);
+    background-color: rgb(223, 135, 5);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.fantasma {
+    color: #fff; 
+    border: 2px solid rgb(90, 0, 128);
+    background-color: rgb(90, 0, 128);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+
+.card{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(146, 202, 217);
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(183, 161, 235);
+    color: #fff;
+    border-top: 3px solid rgb(146, 202, 217);
+    padding: 80px;
+}
+
+
+
+  
